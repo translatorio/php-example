@@ -1,0 +1,29 @@
+{
+    "name": "translatorio/php-example",
+    "type": "project",
+    "description": "Translate a locale file into several languages with Translatorio in plain PHP: same keys, same placeholders, one file per language.",
+    "keywords": [
+        "translatorio",
+        "translation",
+        "i18n",
+        "example",
+        "php"
+    ],
+    "homepage": "https://github.com/translatorio/php-example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edu Lazaro",
+            "homepage": "https://edulazaro.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "edulazaro/translatorio-sdk": "^1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Locales\\": "src/"
+        }
+    }
+}

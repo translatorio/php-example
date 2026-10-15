@@ -1,0 +1,19 @@
+{
+    "nav": {
+        "dashboard": "Dashboard",
+        "settings": "Settings",
+        "sign_out": "Sign out"
+    },
+    "welcome": "Welcome back, :name!",
+    "inbox": {
+        "unread": "You have {count} unread messages",
+        "empty": "No messages yet."
+    },
+    "cart": {
+        "summary": "%d items in your cart",
+        "shared_by": "Shared with you by %s",
+        "checkout": "Go to checkout"
+    },
+    "trial": "Your trial ends in <strong>:days days</strong>.",
+    "terms": "By signing up you accept the <a href=\"https://example.com/terms\">terms of service</a>."
+}

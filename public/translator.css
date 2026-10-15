@@ -1,0 +1,17 @@
+body { font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 44rem; margin: 3rem auto; padding: 0 1rem; color: #1d1d1b; background: #fff; }
+form { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; margin: 1.5rem 0 2.5rem; }
+label { display: grid; grid-template-columns: minmax(0, 1fr); gap: .25rem; font-weight: 600; }
+label.check { display: flex; align-items: center; gap: .4rem; font-weight: 400; }
+fieldset { display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; margin: 0; padding: .5rem .9rem .8rem; border: 1px solid #e2e8f3; border-radius: .4rem; }
+legend { font-weight: 600; padding: 0 .3rem; }
+input[type=file], textarea { font: inherit; padding: .5rem .6rem; border: 1px solid #e2e8f3; border-radius: .4rem; background: #f7f8f9; }
+small { font-weight: 400; color: #5c5c58; }
+button, .button { justify-self: start; display: inline-block; font: inherit; font-weight: 600; padding: .5rem 1.1rem; border: 0; border-radius: 99px; background: #1d1d1b; color: #d1ff8f; text-decoration: none; }
+article { border-top: 1px solid #e2e8f3; padding: 1rem 0 1.5rem; }
+h2 { font-size: 1.15rem; margin: 0; overflow-wrap: anywhere; }
+pre { background: #f7f8f9; border: 1px solid #e2e8f3; border-radius: .4rem; padding: .75rem; overflow-x: auto; font-size: .85rem; }
+.ok { color: #009e4d; margin: .25rem 0; }
+.warn { color: #b42318; margin: .25rem 0; }
+.error { color: #b42318; background: #fdf1f0; padding: .6rem .8rem; border-radius: .4rem; }
+.error p, .error ul { margin: 0; }
+.notice { background: #d1ff8f; padding: .6rem .8rem; border-radius: .4rem; }
